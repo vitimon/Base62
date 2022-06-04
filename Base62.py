@@ -10,7 +10,10 @@ def encodeBase62(number, encoded=''):
 def decodeBase62(text,decoded=0):
     return decodeBase62(text[1:], decoded*base62Size + base62.index(text[0])) if text else decoded
 
+
+"""
 def search4patterns(salt,patterns2find):
     try:
 
     except:
+"""
